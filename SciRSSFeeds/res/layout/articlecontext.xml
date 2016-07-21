@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/articleactivitylayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jincity.scirssfeeds.SciMainActivity$PlaceholderFragment" >
+
+    <!-- 文章内容界面 -->
+
+    <!-- 界面底部菜单 -->
+
+    <LinearLayout
+        android:id="@+id/articlemenu"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/title_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/select_uppage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/choise_uppage"
+            android:textColor="@color/title_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/select_orgart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/choise_orgart"
+            android:textColor="@color/title_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/select_col"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/choise_col"
+            android:textColor="@color/title_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/select_downpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/choise_downpage"
+            android:textColor="@color/title_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/ArticleContent"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/articlemenu" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/article_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/article_enname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/article_belongMagName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:id="@+id/article_pubdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/article_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/article_image"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/articleimage" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/article_enDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <TextView 
+                android:id="@+id/article_link"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/theLink"
+                android:layout_marginLeft="10dp"  
+                android:ellipsize="marquee"    
+                android:scrollHorizontally="true" 
+                android:marqueeRepeatLimit="marquee_forever"
+                />
+
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

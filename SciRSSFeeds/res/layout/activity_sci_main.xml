@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   
+    android:id="@+id/mainactivitylayout"
+    tools:context="com.jincity.scirssfeeds.SciMainActivity$PlaceholderFragment" >
+
+    <!-- 主页界面 -->
+	
+    <!-- 界面底部菜单 -->
+    <LinearLayout
+        android:id="@+id/menue" 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/title_bg"
+        >
+        
+        <TextView
+            android:id="@+id/select_mainpage"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+     		android:layout_gravity="center"
+     		android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/choise_mainpage" 
+            android:textSize="20sp"
+            android:textColor="@color/title_color"
+            />
+        
+        <TextView
+            android:id="@+id/select_collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+     		android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/choise_collection"
+            android:textSize="20sp" 
+            android:textColor="@color/title_color"
+            />
+ 
+        <TextView
+            android:id="@+id/select_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+     		android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/choise_plus" 
+            android:textSize="20sp"
+            android:textColor="@color/title_color"
+            />    
+        
+        <TextView
+            android:id="@+id/select_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+     		android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/choise_update" 
+            android:textSize="20sp"
+            android:textColor="@color/title_color"
+            />
+        
+    </LinearLayout>
+    
+    
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/menue"
+        android:cacheColorHint="#00000000" />
+    
+</RelativeLayout>
