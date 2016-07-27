@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="R:\MySay\Code\Android\SciRSSFeeds\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="R:\MySay\Code\Android\SciRSSFeeds\app\build\intermediates\pre-dexed\release\internal_impl-23.1.0_7c72b21a3db1d3980176978f6381ca7386bc0f10.jar" />
+    </item>
+    <item
+        jar="S:\GreenSoft\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="R:\MySay\Code\Android\SciRSSFeeds\app\build\intermediates\pre-dexed\release\support-annotations-23.1.0_d35572dacf6492a560d6f034f307ad41e7002249.jar" />
+    </item>
+    <item
+        jar="C:\Users\binfan\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.4\b31526a230871fbe285fbcbe2813f9c0839ae9b0\httpcore-4.4.4.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="b31526a230871fbe285fbcbe2813f9c0839ae9b0">
+        <dex dex="R:\MySay\Code\Android\SciRSSFeeds\app\build\intermediates\pre-dexed\release\httpcore-4.4.4_ceed8fbb1e8ef98af6718b1bb48de56f456febb5.jar" />
+    </item>
+    <item
+        jar="R:\MySay\Code\Android\SciRSSFeeds\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="R:\MySay\Code\Android\SciRSSFeeds\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.1.0_12390faaf2ada61b0038561c8756924494c7bb26.jar" />
+    </item>
+
+</items>
