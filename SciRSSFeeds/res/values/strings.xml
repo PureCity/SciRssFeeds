@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">微科学</string>
+    <string name="action_settings">Settings</string>
+	
+    <!-- 标题式样 -->
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@drawable/title_bg</item>
+    </style>
+
+    <style name="test" parent="android:Theme">
+        <item name="android:windowTitleSize">30dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+    
+    
+    <!-- 标题文字 -->
+    <string name="titeLogo">SCI</string>
+    <string name="Title_name_main">首页</string>
+    <string name="Title_setting">设置</string>
+    
+    <!-- 底部菜单文字 -->
+    <string name="choise_mainpage">首页</string>
+    <string name="choise_collection">收藏</string>
+    <string name="choise_plus">增减</string>
+    <string name="choise_update">更新</string>
+    
+    <!-- 文章内容界面底部菜单文字 -->
+    <string name="choise_uppage">上一篇</string>
+    <string name="choise_orgart">原文</string>
+    <string name="choise_col">☆</string>
+    <string name="choise_downpage">下一篇</string>
+    
+    <string name="articleimage">文内图片</string>
+    
+    
+    <!-- 主页相关显示 -->
+    <string name="stag">S</string>
+    
+    <!-- 文章列表界面显示 -->
+    <string name="emptystar">☆</string>
+    <string name="fullstar">★</string>
+    
+    <!-- 增减期刊界面 -->
+    <string name="sub_mag_title">增减订阅期刊</string>
+    <string name="sub_mag_mainpage">首页</string>
+	<string name="sub_mag_have">已有期刊</string>
+	<string name="sub_mag_plus">定制期刊</string>
+	
+	<string name="sub_mag_title1">期刊: \u0020</string>
+	<string name="sub_mag_title2">主题: \u0020</string>
+	
+	<string name="sub_mag_yixue">医学</string>
+	<string name="sub_mag_shengwu">生物</string>
+	<string name="sub_mag_wuli">物理</string>
+	<string name="sub_mag_huaxue">化学</string>
+	<string name="sub_mag_qita">其它</string>
+	
+	
+	<string name="sub_mag_page_1">\u0020 1 \u0020</string>
+	<string name="sub_mag_page_2">\u0020 2 \u0020</string>
+	<string name="sub_mag_page_3">\u0020 3 \u0020</string>
+    
+</resources>
